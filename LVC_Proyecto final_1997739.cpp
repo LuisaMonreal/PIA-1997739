@@ -102,7 +102,7 @@ void agregar(){
 		printf("Ingrese el nombre del videojuegpo \n");
 		cin.ignore();
 		getline(cin, nombre[i]);
-		printf("Ingrese el a%cñ del articulo \n",164);
+		printf("Ingrese el a%cÃ± del articulo \n",164);
 		scanf_s("%d", &anio[i]);
 		printf("Ingrese la clasificacion \n");
 		cin.ignore();
@@ -114,10 +114,10 @@ void agregar(){
 		cin.ignore();
 		getline(cin, genero[i]);
 		printf("Ingrese la descripcion \n");
-		cin.ignore();
+		//cin.ignore();
 		getline(cin, descripcion[i]);
 		printf("Ingrese el precio \n");
-		cin.ignore();
+		//cin.ignore();
 		scanf_s("%f", &subtotal[i]);
 		iva[i] = subtotal[i] * 0.16;
 		total[i] = subtotal[i] + iva[i];
